@@ -1,11 +1,3 @@
-/**
- * repeat until (sub)array is size 0:
- *   calculate middle point of (sub)array
- *   if target is in middle -> stop
- *   otherwise if target is less than middle -> repeat changing end to be just left of middle
- *   otherwise if target is greater than middle -> repeat changing tsrt to be just right of middle
- */
-
 const binarySearch = (list: number[], target: number): number | null => {
   let start: number = 0
   let end: number = list.length - 1

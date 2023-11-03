@@ -1,9 +1,3 @@
-/**
- * repeat until no unsorted elements remain:
- *   search unsorted part to find smallest element
- *   swap smallest found element with first element of unsorted part
- */
-
 const selectionSort = (list: number[]): number[] => {
   for (let i = 0; i < list.length - 1; i++) {
     let smallestIndex = i
@@ -24,8 +18,11 @@ const selectionSort = (list: number[]): number[] => {
   return list
 }
 
-/**
- * const selectionSortTwo = (list: number[]): number[] => {
+const list = [4, 6, 3, 8, 1]
+console.log(selectionSort(list)) // [1, 3, 4, 6, 8]
+
+// alternative
+const selectionSortNewList = (list: number[]): number[] => {
   const sorted: number[] = []
 
   while (list.length > 0) {
@@ -49,7 +46,3 @@ const findSmallestIndex = (list: number[]): number => {
 
   return smallestIndex
 }
- */
-
-const list = [4, 6, 3, 8, 1]
-console.log(selectionSort(list)) // [1, 3, 4, 6, 8]
