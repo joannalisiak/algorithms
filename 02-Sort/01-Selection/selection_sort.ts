@@ -1,7 +1,7 @@
 /**
  * repeat until no unsorted elements remain:
-	  search unsorted part to find smallest element
-	  swap smallest found element with first element of unsorted part
+ *   search unsorted part to find smallest element
+ *   swap smallest found element with first element of unsorted part
  */
 
 const selectionSort = (list: number[]): number[] => {

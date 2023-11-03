@@ -1,3 +1,9 @@
+/**
+ * repeat starting at first element:
+ *   if element is target -> stop
+ *   otheriwse move to next element
+ */
+
 const linearSearch = (list: number[], target: number): number | null => {
   let index: number | null = null
 
