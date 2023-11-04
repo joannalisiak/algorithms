@@ -29,3 +29,13 @@ repeat until no unsorted elements remain:
 	search unsorted part to find smallest element
 	swap smallest found element with first element of unsorted part
 ```
+
+### Bubble Sort
+
+```
+set swap counter to non-zero value
+repeat until swap counter is 0:
+	reset swap counter to 0
+	look at each adjacent pair
+		if two adjacent elements not in order → swap them & add 1 to swap counter
+```
