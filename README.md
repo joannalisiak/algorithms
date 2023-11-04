@@ -39,3 +39,13 @@ repeat until swap counter is 0:
 	look at each adjacent pair
 		if two adjacent elements not in order → swap them & add 1 to swap counter
 ```
+
+### Merge Sort
+
+```
+sort left half of array (assuming n > 1)
+sort right half of array (assuming n > 1)
+merge two halves together
+
+(use recursion)
+```

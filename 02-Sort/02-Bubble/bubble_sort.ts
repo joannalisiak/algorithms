@@ -1,4 +1,4 @@
-const bubbleSort = (list: number[]): number[] | null => {
+const bubbleSort = (list: number[]): number[] => {
   let swapCounter = -1 // arbitrary value
 
   while (swapCounter != 0) {
